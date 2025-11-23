@@ -1,5 +1,4 @@
-package com.example.demo.models;
-
+package com.example.demo.models.StudentInfo;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;

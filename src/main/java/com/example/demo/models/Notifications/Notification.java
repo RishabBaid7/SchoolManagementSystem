@@ -24,7 +24,7 @@ public class Notification {
     private String message;
 
     @Enumerated(EnumType.STRING)
-    private NotificationType type;
+    private NotificationType type; //ATTENDANCE_ALERT, PERFORMANCE_ALERT, ANNOUNCEMENT
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;

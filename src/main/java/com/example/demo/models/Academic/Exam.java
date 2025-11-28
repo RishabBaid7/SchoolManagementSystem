@@ -20,14 +20,12 @@ public class Exam {
     private UUID id;
 
     @Column(nullable = false)
-    private String name;
-
-    private String term;
+    private String name; // Midterm, Final, etc.
 
     @Column(name = "class")
-    private String className;  
+    private String className; //10, 12 etc.
 
-    private String section;
+    private String section; //A, B, C etc.
 
     @Column(name = "scheduled_date")
     private LocalDate scheduledDate;

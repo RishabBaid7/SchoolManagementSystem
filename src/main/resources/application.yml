@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SchoolManagementSystem
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=school_app;encrypt=false
+    username: SA
+    password: Valorant@71
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: none    # We created tables manually
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

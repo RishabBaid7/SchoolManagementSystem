@@ -26,9 +26,9 @@ public class Attendance {
     private UUID studentId;
 
     @Column(name = "teacher_id", nullable = false)
-    private UUID teacherId;
+    private UUID teacherId; //Marked by a specific teacher
 
-    private LocalDate date;
+    private LocalDate date; 
 
     private String status; // Present | Absent
 
